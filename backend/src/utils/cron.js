@@ -27,7 +27,7 @@ export function startCron(monitor, fn) {
 
 /**
  * Stop a cron task
- */
+ */ 
 export function stopCron(monitorId) {
   const task = jobStore.get(monitorId.toString());
   if (task) {
